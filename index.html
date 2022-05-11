@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/css/style.css">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <div id="weathermap"></div>
+  <div class="contenedor">
+    <p>IP Address Tracker</p>
+    <input type="text" placeholder="Ingresa la direccion IP o el nombre del dominio" id="input">
+    <button class="boton" id="boton">></button>
+    <img src="/images/pattern-bg.png" class="ima" alt="" srcset="">
+    <div class="resultado">
+      <div class="info">ip address
+        <span id="ip"></span>
+      </div>
+      <hr>
+      <div class="info">Location
+        <span id="location"></span>
+      </div>
+      <hr>
+      <div class="info">Timezone
+        <span id="timezone"></span>
+      </div>
+      <hr>
+      <div class="info">ISP
+        <span id="isp"></span>
+      </div>
+    </div>
+  </div>
+</head>
+<body>
+
+  
+  
+
+</body>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+crossorigin=""></script>
+<script src="/main/main.js"></script>
+<!--
+  IP Address Tracker
+
+  Search for any IP address or domain
+
+  IP Address
+  Location
+  Timezone
+    UTC add offset value dynamically using the API 
+    ISP
+-->
+</html>

@@ -1,0 +1,99 @@
+
+#location, #ip, #timezone, #isp{
+    font-size: large;
+}
+hr{
+    height:9vh;
+    width:.1vw;
+    right: -1%;
+    position: relative;
+    border-width:0;
+    color:rgb(235, 227, 227);
+    background-color:rgb(165, 158, 158);
+   }
+body, img{
+    margin:0;
+    padding:0;
+}
+span{
+    font-weight: 500;
+}
+p{
+    position: absolute;
+    top: 30px;
+    font-size: x-large;
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+}
+input{
+    position: absolute;
+    width: 25%;
+    height: 5%;
+    border-radius: 5px;
+    border-style: none;
+}
+input:focus{
+    outline: none;
+}
+img{
+    height: 40vh;
+    width: 100vw;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.mapa{
+    bottom: 0px;
+    height: 60vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+.resultado{
+    bottom: 53%;
+    min-width: 75%;
+    min-height: 14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    font-family: 'Rubik', sans-serif;
+    #location, #ip, #timezone, #isp{
+        margin-top: 3%;
+        text-align: center;
+    }
+}
+.boton{
+    position: absolute;
+    right: 35.5%;
+    height: 5.5%;
+    width: 2.2rem;
+    border-radius: 0px 10px 10px 0px;
+    border-style: none;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: black;
+}
+
